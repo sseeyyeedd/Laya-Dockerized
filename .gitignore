@@ -1,0 +1,18 @@
+.freebuff/
+# Local model cache (~647 MB) - re-download with scripts/download_model.py
+.hf-cache/
+
+# Staging dir for the docker build (regenerate with scripts/stage_model.py)
+docker-model/
+
+# Vendored torch CPU wheel for the docker build (~196 MB)
+docker-wheels/
+
+# Virtualenv
+.venv/
+venv/
+
+# Logs and local runtime artifacts
+*.log
+__pycache__/
+*.pyc

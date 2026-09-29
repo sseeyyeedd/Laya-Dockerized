@@ -1,0 +1,9 @@
+# Never send these to the build context (docker-model/ is intentionally sent:
+# the build bakes it in as the offline model cache).
+.venv/
+.hf-cache/
+*.log
+__pycache__/
+*.pyc
+.git/
+README.md
